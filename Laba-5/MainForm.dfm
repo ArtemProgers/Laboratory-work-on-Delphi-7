@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 794
+  Top = 392
+  BorderStyle = bsSingle
+  Caption = 'MainForm'
+  ClientHeight = 207
+  ClientWidth = 330
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 100
+    Width = 168
+    Height = 16
+    Caption = #1042#1088#1077#1084#1103' '#1088#1072#1073#1086#1090#1099' '#1087#1088#1086#1075#1088#1072#1084#1084#1099
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Top = 128
+    Width = 130
+    Height = 16
+    Caption = #1048#1090#1086#1075#1086#1074#1086#1077' '#1079#1085#1072#1095#1077#1085#1080#1077
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 104
+    Top = 24
+    Width = 121
+    Height = 49
+    Caption = #1047#1072#1087#1091#1089#1082
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 192
+    Top = 96
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 152
+    Width = 313
+    Height = 41
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 2
+  end
+end
